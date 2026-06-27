@@ -21,12 +21,12 @@ export default function CTA() {
         </h2>
         
         <div className="flex gap-4 justify-center items-center">
-          <button className="hero-secondary-btn rounded-full px-8 py-4 text-[18px] font-medium flex items-center justify-center bg-white text-black hover:bg-white/90">
+          <Link to="/contact" className="hero-secondary-btn rounded-full px-8 py-4 text-[18px] font-medium flex items-center justify-center bg-white text-black hover:bg-white/90">
             Get Started
-          </button>
-          <button className="hero-secondary-btn rounded-full px-8 py-4 text-[18px] font-medium flex items-center justify-center">
+          </Link>
+          <Link to="/contact" className="hero-secondary-btn rounded-full px-8 py-4 text-[18px] font-medium flex items-center justify-center">
             Book Demo
-          </button>
+          </Link>
         </div>
       </motion.div>
     </section>
